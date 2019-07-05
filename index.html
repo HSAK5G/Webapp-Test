@@ -1,6 +1,8 @@
 <!DOCTYPE>
 <html>
 <head>
+  <title>Cool Colors Webapp</title>
+    <link rel="shortcut icon" type="image/icon" href="favicon.ICO">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link href="splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 <link href="splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
@@ -15,7 +17,28 @@
 <link href="splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 <link href="splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 </head>
+  <style media="screen">
+    body {
+		animation-name: polychrome;
+		animation-duration: 7s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		margin-left: 20px;
+		margin-top: 20px;
+		margin-right: 10px;
+		margin-bottom: 30px;
+		padding-left: 10px;
+		padding-top: 20px;}
+		@keyframes polychrome{
+			0% {background-color: red;}
+			12% {background-color: red;}
+			25% {background-color: gray;}
+			50% {background-color: orange;}
+			75% {background-color: blue;}
+			100% {background-color: red;}
+		}
+  </style>
 <body>
-<h1>It works?? But caching is BAD</h1>
+
 </body>
 </html>
